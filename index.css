@@ -164,9 +164,63 @@ img {
  
     width: 100%; /* Set the width as a percentage of the parent container */
     height: auto; /* Maintain the aspect ratio */
+    
+   
  
 
 }
 #bannerDiv {
-  padding: 2rem;
+  padding: 4rem;
+}
+#hakkimizda {
+  display: flex;
+  flex-direction: column;
+  margin:3rem;
+}
+#yemekler {
+  display: flex;
+}
+
+#yemekImg {
+  margin: 4rem;
+}
+
+#yemekYazi {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 0 4rem;
+  padding: 4rem;
+}
+#aperatif {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  
+  
+}
+#aperatifPart {
+ display: flex;
+ flex-direction: row;
+}
+#aperatifImg {
+  width: 25vw;
+  margin: 4rem;
+}
+
+#tatlilarPart{
+  display: flex;
+  flex-direction: row;
+}
+#tatlilarImg{
+  width: 35vw;
+}
+#tatlilar{
+  margin: 10rem 5rem 0 10rem ;
+}
+#copyright{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem; 
+  padding-bottom: 2rem;
 }
